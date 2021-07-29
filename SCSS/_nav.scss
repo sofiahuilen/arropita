@@ -1,0 +1,51 @@
+nav{
+    ul {
+        list-style: none;
+        padding: 10px;
+        margin: auto;    
+        background-color:antiquewhite;
+        border-radius: 20px;
+        font-size: 0;
+        text-align: center;
+        text-decoration: none;
+      }
+    li {
+        display: inline-block;
+        width: 200px;
+        position:relative;
+        font-size: 15px;
+        text-align: center;
+        background-color: none;
+    }
+    ul ul {
+        position: absolute;
+        display: none;
+        }
+    ul ul li {
+            display: block;
+    }
+    li:hover{
+        color: white;
+        font-weight: bold; 
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color:tomato ;
+        background-color: white;
+        border-radius: 20px;
+    }
+    ul li:hover ul {
+        display:block;
+        background-color:blanchedalmond(216, 137, 150);
+    }
+    .enlaces{
+        list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif")
+    }
+    .scale:hover{
+        transform:scale(1.5, 1.5)
+    }
+}
+  
+  

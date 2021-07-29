@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="SCSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Arropita - Nuestros Productos</title>
+</head>
+<body>
+    <body>
+        <div class="containermio" id="grilla">
+            <div class="box-1">
+                <header>
+                    <div class="scale">
+                        <img src="multimedia/logo definitivo.png" alt="Logo arropita" width="100px" class="animate__animated animate__shakeX">
+                    </div>
+                </header>
+            </div>
+            <div class="box-2">
+                <nav>
+                    <ul class="enlaces">
+                        <li><a href="index.html" class="link">Home</a></li>
+                        <li><a href="aboutus.html" class="link"> About Us</a></li>
+                        <li><a href="nuestrosproductos.html" class="link"> Nuestros Productos</a>
+                            <ul>
+                                <li><a href="kitsarmados.html">Kits Armados</a></li>
+                                <li><a href="prendasueltas.html">Prendas sueltas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="comocomprar.html" class="link"> Como comprar</a></li>
+                        <li><a href="contacto.html" class="link"> Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box-3">
+                <hr>
+                <h1>Nuestros productos</h1>
+                <div id="main">
+                    <article>
+                        <img src="multimedia/logo definitivo.png" alt="ajuar 1" width="100px">
+                        <h3>Body + Babero + Portachupete</h3>
+                    </article>
+                    <article>
+                        <img src="multimedia/logo definitivo.png" alt="ajuar 2" width="100px">
+                        <h3>Manta polar + Toallón capucha + Body</h3>
+                    </article>
+                    <article>
+                        <img src="multimedia/logo definitivo.png" alt="ajuar 2" width="100px">
+                        <h3>Ajuar completo</h3>
+                    </article>
+                </div>
+            </div>
+            <div class="box-4">
+                <section>
+                    <article>
+                        <h2 class="article_slogan"> 10 años acompañandote</h2>
+                        <br>
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/dw8mhJPY4NI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                </section>
+            </div>
+            <div class="box-5">
+                <footer> 
+                    <h1>Arropita</h1>
+                    <h6>Página diseñada por Sofía Fernández</h6>
+                    <!--aca voy a agregar las redes sociales-->
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="aboutus.html">About us</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="nuestrosproductos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Nuestros productos
+                                        </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="kitsarmados.html">Kits armados</a></li>
+                                    <li><a class="dropdown-item" href="prendasueltas.html">Prendas sueltas</a></li>
+                                </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="comocomprar.html">Cómo comprar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contacto.html">Contacto</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </footer>
+            </div>
+           </div>  
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>  
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) 
+        {
+          return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>    
+</body>
+</html>
