@@ -8,159 +8,123 @@
     content="Sitio web para venta de ajuares para bebés.">
     <meta name="keywords"
     content="AJUARES, MATERNIDAD, NACIMIENTO, BABYSHOWER, ROPA BEBE, RECIEN NACIDOS">
-   <!-- Relaciono al cdn de bootstrap -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
-   <!-- Relaciono con mi estilo propio -->
-   <link rel="stylesheet" href="SCSS/estilos.css">   
-   <title>Arropita: ropa para recién nacidos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="SCSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Arropita - Nuestros Productos: Kits armados</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <div class="scale">
-                  <img src="multimedia/logo definitivo.png" alt="logo arropita" width="100px" class="animate__animated animate__shakeX">
-                </div>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About us</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="nuestrosproductos.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
-                      Nuestros productos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="kitsarmados.html">Kits armados</a></li>
-                      <li><a class="dropdown-item" href="prendasueltas.html">Prendas sueltas</a></li>
-                    </ul>
-                    <li class="nav-item">
-                      <a class="nav-link" href="comocomprar.html">Cómo comprar</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                  </li>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="scale">
+              <img src="multimedia/logo definitivo.png" alt="logo arropita" width="100px" class="animate__animated animate__shakeX">
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="nuestrosproductos.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                  Nuestros productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="kitsarmados.html">Kits armados</a></li>
+                  <li><a class="dropdown-item" href="prendasueltas.html">Prendas sueltas</a></li>
                 </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 p-3 column">
-              <h1>Bienvenidos a Arropita</h1>
-              <div id="carouselExampleIndicators" class="carousel slide sizeCarrousel " data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="multimedia/ajuar1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="multimedia/cambiador.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="multimedia/canasto.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="multimedia/escarpines.png" class="d-block w-100" alt="...">
-                  </div>
-                  
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-            
-            <div class="col-md-4 col-sm-12 p-3 column">
-              <article class="div_art">
-                <p class="div_art_parr">Nos especializamos en cajas de regalo con ropa, juguetes y objetos decorativos para los recién nacidos.
-                </p>
-                <a href="nuestrosproductos.html">Mirá nuestros productos aquí.</a>
-              </article>
-            </div>
-            <div class="col-md-4 col-sm-6 p-3 column">
-              <article class="div_art">
-                <p class="div_art_parr">
-                      Realizamos envíos a todo el país. Consultá por stock y tiempo de entrega.
-                  </p>
-              </article>  
-            </div>
-            <div class="col-md-4 col-sm-6 p-3 column">
-              <section>
-                <article>
-                    <h2 class="article_slogan"> 10 años acompañándote</h2>
-                    <br>
-                    <iframe width="300" height="200" src="https://www.youtube.com/embed/dw8mhJPY4NI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-              </section>
-            </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="comocomprar.html">Cómo comprar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12 p-3 column">
-              <footer> 
-                <h1>Arropita</h1>
-                <h6>Página diseñada por Sofía Fernández</h6>
-                <!--aca voy a agregar las redes sociales-->
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="aboutus.html">About us</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="nuestrosproductos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Nuestros productos
-                                    </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="kitsarmados.html">Kits armados</a></li>
-                                <li><a class="dropdown-item" href="prendasueltas.html">Prendas sueltas</a></li>
-                            </ul>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="comocomprar.html">Cómo comprar</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contacto.html">Contacto</a>
-                                </li>
-                                </li>
-                            </ul>
+      </nav>
+</header>
+        <div class="containermio" id="grilla">    
+            <div class="box-3">
+                <hr>
+                <h1>Nuestros productos: Kits armados</h1>
+                <div id="main">
+                    <article>
+                        <img src="multimedia/bodybaberoportachupete.jpg" alt="body babero portachupete" width="230px">
+                        <h5>Body + Babero + Portachupete</h5>
+                    </article>
+                    <article>
+                        <img src="multimedia/mantapolar.jpeg" alt="manta polar toallon body" width="140px">
+                        <h5>Manta polar + Toallón capucha + Body</h5>
+                    </article>
+                    <article>
+                        <img src="multimedia/ajuarcompleto.jpeg" alt="ajuar completo" width="200px">
+                        <h5>Ajuar completo</h5>
+                    </article>
+                </div>
+            </div>
+            <div class="box-4">
+                <section>
+                    <article>
+                        <h2 class="article_slogan"> 10 años acompañándote</h2>
+                        <br>
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/dw8mhJPY4NI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                </section>
+            </div>
+            <div class="box-5">
+                <footer> 
+                    <h1>Arropita</h1>
+                    <h6>Página diseñada por Sofía Fernández</h6> 
+                    <!--aca voy a agregar las redes sociales-->
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="aboutus.html">About us</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="nuestrosproductos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Nuestros productos
+                                        </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="kitsarmados.html">Kits armados</a></li>
+                                    <li><a class="dropdown-item" href="prendasueltas.html">Prendas sueltas</a></li>
+                                </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="comocomprar.html">Cómo comprar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contacto.html">Contacto</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
-            </footer>
+                    </nav>
+                </footer>
             </div>
-        </div>
-    </main>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
+           </div>  
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="js/bootstrap.js"></script>
     <script src="popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>  
